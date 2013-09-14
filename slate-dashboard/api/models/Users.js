@@ -8,12 +8,12 @@
 
 module.exports = {
 
-  attributes: {
+    attributes: {
 
-    login: 'string',
-    email: 'string',
-    password: 'string'
+        login: 'string',
+        email: 'string',
+        password: 'string'
 
-  }
+    }
 
 };
