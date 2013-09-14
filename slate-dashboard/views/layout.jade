@@ -1,0 +1,47 @@
+!!!
+html
+  head
+    title= title
+
+    // Viewport mobile tag for sensible mobile support
+    meta(name="viewport",content="width=device-width, initial-scale=1, maximum-scale=1")
+
+    block styles
+
+    // SCRIPTS
+    script(type="text/javascript", src="/linker/js/socket.io.js")
+    script(type="text/javascript", src="/linker/js/sails.io.js")
+    script(type="text/javascript", src="/linker/js/app.js")
+    // SCRIPTS END
+
+    // STYLES
+    link(rel="stylesheet", href="/linker/styles/bootstrap/bootstrap-responsive.css")
+    link(rel="stylesheet", href="/linker/styles/bootstrap/bootstrap.css")
+    link(rel="stylesheet", href="/linker/styles/jquery_ui/jquery-ui-1.10.0.custom.css")
+    link(rel="stylesheet", href="/linker/styles/jquery_ui/jquery.ui.1.10.0.ie.css")
+    link(rel="stylesheet", href="/linker/styles/light-theme.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/bootstrap_colorpicker/bootstrap-colorpicker.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/bootstrap_daterangepicker/bootstrap-daterangepicker.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/bootstrap_datetimepicker/bootstrap-datetimepicker.min.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/bootstrap_switch/bootstrap-switch.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/common/bootstrap-wysihtml5.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/datatables/bootstrap-datatable.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/dynatree/ui.dynatree.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/flags/flags.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/fuelux/wizard.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/fullcalendar/fullcalendar.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/jgrowl/jquery.jgrowl.min.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/jquery_fileupload/jquery.fileupload-ui.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/mention/mention.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/select2/select2.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/slider_nav/slidernav.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/tabdrop/tabdrop.css")
+    link(rel="stylesheet", href="/linker/styles/plugins/xeditable/bootstrap-editable.css")
+    // STYLES END
+
+    // TEMPLATES
+    
+    // TEMPLATES END
+
+  body
+    block body

@@ -15,7 +15,7 @@ module.exports.session = {
   // Session secret is automatically generated when your new app is created
   // Replace at your own risk in production-- you will invalidate the cookies of your users,
   // forcing them to log in again. 
-  secret: 'd20de329037c9177cf65f3cd4de1e858'
+  secret: 'e0120998b4a8317570b314680a8fa83e'
 
 
   // In production, uncomment the following lines to set up a shared redis session store
