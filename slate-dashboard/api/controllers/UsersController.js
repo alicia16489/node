@@ -8,7 +8,11 @@
 module.exports = {
 
     signup: function (req, res) {
-        //res.view();
+
+    },
+
+    signin: function(req, res){
+
     }
 
 };

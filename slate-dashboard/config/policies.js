@@ -19,8 +19,7 @@ module.exports.policies = {
     '*': true,
 
     HomeController: {
-        '*': false,
-        index: 'authenticated'
+        //index: 'authenticated'
     }
 
     /*
